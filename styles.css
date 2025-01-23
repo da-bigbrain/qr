@@ -1,0 +1,25 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Container to center the QR code */
+.qr-container {
+    text-align: center;
+}
+
+/* Style the QR code image */
+.qr-code {
+    max-width: 90%;
+    max-height: 90vh;
+    width: auto;
+    height: auto;
+    border: 10px solid #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
